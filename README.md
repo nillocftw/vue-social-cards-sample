@@ -1,4 +1,4 @@
-# vue-sample
+# vue-social-cards-sample
 
 ## Project setup
 ```
