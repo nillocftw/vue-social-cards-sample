@@ -22,7 +22,9 @@ export default {
     return {
       meta: [
          {name: 'twitter:card', content: 'summary_large_image'},
-         {name: 'twitter:title', content: 'Vue Social Cards Example'},
+         {name: 'twitter:title', content: 'Vue Social Cards Example2'},
+         {name: 'twitter:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'},
+         {name: 'twitter:site', content: ROOT_PATH},
          {name: 'twitter:image', content: this.logo},       
       ]
     }
