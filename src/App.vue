@@ -10,8 +10,22 @@ import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'app',
+  data() {
+    return {
+      logo: require('./assets/logo.png')
+    }
+  },
   components: {
     HelloWorld
+  },
+  metaInfo() {
+    return {
+      meta: [
+         {name: 'twitter:card', content: 'summary_large_image'},
+         {name: 'twitter:title', content: 'Vue Social Cards Example'},
+         {name: 'twitter:image', content: this.logo},       
+      ]
+    }
   }
 }
 </script>
