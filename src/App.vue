@@ -12,7 +12,7 @@ export default {
   name: 'app',
   data() {
     return {
-      logo: require('./assets/logo.png')
+      logo: ROOT_PATH + require('./assets/logo.png')
     }
   },
   components: {
