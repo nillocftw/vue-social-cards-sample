@@ -7,12 +7,12 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+let ROOT_PATH = 'https://vue-social-cards-sample.netlify.com'
 export default {
   name: 'app',
   data() {
     return {
-      logo: require('./assets/logo.png')
+      logo: ROOT_PATH + require('./assets/logo.png')
     }
   },
   components: {
