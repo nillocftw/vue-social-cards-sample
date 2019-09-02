@@ -12,7 +12,7 @@ export default {
   name: 'app',
   data() {
     return {
-      logo: ROOT_PATH + require('./assets/logo.png')
+      logo: require('./assets/logo.png')
     }
   },
   components: {
@@ -21,11 +21,10 @@ export default {
   metaInfo() {
     return {
       meta: [
-         {name: 'twitter:card', content: 'summary_large_image'},
-         {name: 'twitter:title', content: 'Vue Social Cards Example2'},
+         {name: 'twitter:card', content: 'summary'},
+         {name: 'twitter:title', content: 'Vue Social Cards Example3'},
          {name: 'twitter:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'},
-         {name: 'twitter:site', content: ROOT_PATH},
-         {name: 'twitter:image', content: this.logo},       
+         {name: 'twitter:image', content: this.logo},
       ]
     }
   }
